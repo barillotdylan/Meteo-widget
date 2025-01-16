@@ -16,7 +16,7 @@ export default async function City({
 
 	return (
 		<div className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
-  <Title level={2} className="text-3xl font-semibold mb-4 text-center">{city}</Title>
+  <Title level={2}>{city}</Title>
   <div className="text-5xl font-extrabold mb-2 text-center">{data.main.temp} °C</div>
   <div className="flex justify-center mb-4">
     <img
